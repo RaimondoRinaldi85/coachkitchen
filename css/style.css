@@ -6,8 +6,11 @@
     font-family: 'Lato';
 }
 
+body{}
+
 :root {
     --shadow: 8px 8px 8px rgba(0, 0, 0, 16%);
+    --shadowlight: 3px 3px 8px rgba(0, 0, 0, 16%);
     --font-regular: 400;
     --font-bold: 700;
     --font-black: 900;
@@ -71,12 +74,12 @@ nav ul li a:hover{
 .title h1{
     font-size: 50px;
     text-transform: uppercase;
-    text-shadow: var(--shadow);
+    text-shadow: var(--shadowlight);
     font-weight: var(--font-black);
 }
 .title h2{
     font-size: 25px;
-    text-shadow: var(--shadow);
+    text-shadow: var(--shadowlight);
     font-weight: var(--font-regular);
 }
 
@@ -97,6 +100,7 @@ nav ul li a:hover{
     padding: 1rem;
     border-radius: 5px;
     background-color: var(--grigio);
+    box-shadow: var(--shadowlight);
     transition: 0.3s;
 }
 
@@ -104,11 +108,31 @@ nav ul li a:hover{
     background-color: white;
     color: var(--grigio);
     border: var(--grigio) 1px solid;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0%);
 }
 
+
 .titolo{
-    font-size: 40px;
+    background-color: var(--grigio);
+    font-size: 30px;
     font-weight: var(--font-bold);
-    margin: 3rem auto;
+    margin: 2rem auto;
+    width: 100vh;
     text-transform: uppercase;
+    padding: 1.5rem;
+    color: var(--green);
+    border-radius: 5px;
+    border: var(--green) 1px solid;
+    box-shadow: var(--shadow);
 }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu p{
+    margin: 0 3rem;
+}
+

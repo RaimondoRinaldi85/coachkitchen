@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+:root {
+    --shadow: 8px 8px 8px rgba(0, 0, 0, 16%);
+    --font-regular: 400;
+    --font-bold: 700;
+    --font-black: 900;
+    --green: #96E6A1;
+    --grigio: rgb(117, 117, 117);
+  }
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: var(--grigio);
+    box-shadow: var(--shadow);
+    color: var(--green);
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+nav ul li a{
+    color: var(--green);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.landing{
+    background-image: url(../img/landing2.png);
+    background-size: cover;
+    background-position: top;
+    background-color: var(--grigio);
+    height: 50vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: var(--shadow);
+    font-weight: var(--font-black);
+}
+.title h2{
+    font-size: 35px;
+    text-shadow: var(--shadow);
+    font-weight: var(--font-regular);
+}
+
+.menu-btn{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+}
+
+.menu-btn a{
+    margin: auto auto;
+    text-decoration: none;
+    font-weight: var(--font-bold);
+    color: var(--green);
+    text-shadow: var(--shadow);
+    border: white 1px solid;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--grigio);
+}
+
+.titolo{
+    font-size: 40px;
+    font-weight: var(--font-bold);
+    margin: 3rem auto;
+    text-transform: uppercase;
+}

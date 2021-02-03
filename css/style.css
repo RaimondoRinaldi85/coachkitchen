@@ -58,6 +58,7 @@ nav ul li a:hover{
 
 .landing{
     background-image: url(../img/landing2.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-color: var(--grigio);
@@ -142,7 +143,7 @@ nav ul li a:hover{
 
 #service p{
     font-size: 20px;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .card{

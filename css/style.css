@@ -57,7 +57,7 @@ nav ul li a:hover{
 }
 
 .landing{
-    background-image: url(../img/landing2.png);
+    background-image: url(../img/landing3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -136,7 +136,7 @@ nav ul li a:hover{
 
 #service{
     display: flex;
-    
+    flex-flow: wrap row;
     text-align: center;
     align-items: center;
 }
@@ -144,6 +144,7 @@ nav ul li a:hover{
 #service p{
     font-size: 20px;
     padding: 2rem;
+    height: 250px;
 }
 
 .card{

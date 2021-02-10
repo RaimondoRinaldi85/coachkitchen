@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
 }
 
-body{}
+body{
+    
+}
 
 :root {
     --shadow: 8px 8px 8px rgba(0, 0, 0, 16%);
@@ -144,6 +146,7 @@ nav ul li a:hover{
     flex-flow: wrap row;
     text-align: center;
     align-items: center;
+    
 }
 
 #service p{
@@ -288,3 +291,12 @@ nav ul li a:hover{
         opacity: 1;
         }
 }
+
+
+
+
+
+
+
+
+

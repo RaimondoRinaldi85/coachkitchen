@@ -178,12 +178,12 @@
     box-shadow: var(--shadow);
 }
 
+
 #service{
     display: flex;
     flex-flow: wrap row;
     text-align: center;
     align-items: center;
-    
 }
 
 #service p{
@@ -198,7 +198,6 @@
     border-radius: 5px;
     width: 400px;
     margin: 3rem auto;
-    animation: FadeIn 3.5s forwards 0s linear;
 }
 
 .video {

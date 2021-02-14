@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
     font-family: 'Lato';
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d1d1d1;
 }
 
 :root {
@@ -17,7 +20,6 @@
     --green: #96E6A1;
     --grigio: rgb(117, 117, 117);
   }
-
 
 /* nav */
 
@@ -85,9 +87,6 @@
     border-radius: 10px;
 }
 
-
-
-
 /*landing*/
 
 .landing{
@@ -127,6 +126,7 @@
 .title img{
    height: 200px;
    width: 200px;
+   animation: ScaleIn .5s forwards 0s linear;
 }
 
 .btns{
@@ -139,7 +139,6 @@
     margin-top: 1.5rem;
     padding: 1rem;
 }
-
 
 .menu-btn a{
     margin: auto auto;
@@ -162,7 +161,6 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0%);
 }
 
-
 .titolo{
     text-align: center;
     background-color: var(--grigio);
@@ -178,6 +176,7 @@
     box-shadow: var(--shadow);
 }
 
+/* our mission */
 
 #service{
     display: flex;
@@ -207,6 +206,7 @@
     border: var(--green) 1px solid;
   }
 
+/* menu */
 
 
 
@@ -227,23 +227,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* about */
 
 #about{
     display: flex;
@@ -256,23 +240,7 @@
     height: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
 
 .footer{
     margin-top: 3rem;
@@ -322,29 +290,9 @@
     color: var(--green);
 }
 
+/* media queries 800 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -419,17 +367,7 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* Animations */
 
 @keyframes FadeIn{
     0%{
@@ -442,3 +380,21 @@
         opacity: 1;
         }
 }
+
+@keyframes ScaleIn{
+    0%{
+        transform: scale(0.1);
+        }
+    100%{
+        transform: scale(1);
+        }
+}
+
+
+
+
+
+
+
+
+
